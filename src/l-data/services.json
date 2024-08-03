@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Social Media Marketing",
+    "img": "/light/assets/imgs/serv-icons/output-onlinegiftoo.gif",
+    "desc": "Our digital marketing services are designed to enhance your online presence and expand your reach.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Web Developments",
+    "img": "/light/assets/imgs/serv-icons/output-onlinegif.gif",
+    "desc": "Our website design services focus on crafting visually appealing and intuitive websites that enhance user experience.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Content Marketing",
+    "img": "/light/assets/imgs/serv-icons/output-onlinegiftools.gif",
+    "desc": "Content marketing involves creating and consistent content to attract and engage a clearly defined audience.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Email Marketing",
+    "img": "/light/assets/imgs/serv-icons/output-onlinegiftoolsss.gif",
+    "desc": "Email marketing is the practice of sending targeted emails to a group of subscribers to promote products, services, or content.",
+    "link": "/light/page-services-details"
+  }
+]
