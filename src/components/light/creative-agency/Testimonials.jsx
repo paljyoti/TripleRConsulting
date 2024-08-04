@@ -18,12 +18,12 @@ function Testimonials() {
     },
   };
   return (
-    <section className="testimonials section-padding pt-20 pb-20">
+    <section className="testimonials section-padding pt-0 pb-20">
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
             <div className="sec-head">
-              <h1 className="sub-title  fw-800 main-color mb-15" style={{ fontSize: "50px"}}> Blogs</h1>
+              <h1 className="sub-title  fw-800  mb-15"  style={{ fontSize: "30px",color:"#7fff00"}}> Blog</h1>
               <h3 className="fw-600">
                 Digital  <span className="fw-200">   Marketing?</span>  
               </h3>
@@ -42,6 +42,7 @@ function Testimonials() {
                 data-swiper="container"
                 loop={true}
                 {...swiperOptions}
+        
               >
                 {data.slice(0, 2).map((item, i) => (
                   <SwiperSlide key={i}>

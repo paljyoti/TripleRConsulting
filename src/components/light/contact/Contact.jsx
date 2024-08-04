@@ -21,18 +21,20 @@ function Contact() {
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
                     <h6 className="mb-15">Address</h6>
-                    <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                    <h5 className="opacity-8">
+                  Saraswati Vihar <br /> Gurgaon , Haryana ,India
+                </h5>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
                     <h6 className="mb-15">Email</h6>
-                    <p>jyot2999@gmail.com</p>
+                    <p>rishabhbahree@gamil.com</p>
                   </div>
                 </div>
               </div>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="#0">+91 7827293362</a>
+                <a href="#0">+91 9911082917</a>
               </div>
               {/* <ul className="rest social-text d-flex mt-60">
                 <li className="mr-30">

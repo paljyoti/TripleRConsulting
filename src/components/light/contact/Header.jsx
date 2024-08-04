@@ -24,7 +24,7 @@ function Header() {
     >
       <div className="container pt-100">
         <div className="text-center">
-          <h1 className="fz-100 text-u">Contact Us.</h1>
+          <h1 className="fz-100 text-u">Contact Us</h1>
           {/* <div className="mt-15">
             <a href="/light/home-main">Home</a>
             <span className="padding-rl-20">|</span>

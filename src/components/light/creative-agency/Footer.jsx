@@ -1,6 +1,7 @@
 import React from 'react';
+import "./externalCSS/Navbar.css";
 
-function Footer() {
+function Footer({ onBookCallClick }) {
   return (
     <footer
       className="clean-footer crev bg-img"
@@ -17,7 +18,8 @@ function Footer() {
               </a>
             </span>
           </h2>
-        </div>
+          </div>
+        
         <div className="row">
           <div className="col-lg-3">
             <div className="logo icon-img-100">
@@ -29,7 +31,7 @@ function Footer() {
               <div className="mb-40">
                 <h6 className="sub-title mb-30">Address</h6>
                 <h5 className="opacity-8">
-                  Saraswati Vihar <br /> Gurgaon , Haryana ,India
+                  Saraswati Vihar <br /> Gurgaon, Haryana, India
                 </h5>
                 <h5 className='mt-4'>Email
                 </h5>
@@ -107,7 +109,7 @@ function Footer() {
           </div>
           <div className="ml-auto">
             <p className="fz-14">
-              copy exeligo innovations pvt ltd
+            Copyright: © 2024 Triple R Consulting All Rights Reserved.
               {/* <span className="underline main-color">
                 <a href="https://themeforest.net/user/UiCamp" target="_blank">
                   UiCamp

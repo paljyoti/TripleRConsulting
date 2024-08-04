@@ -2,25 +2,43 @@
   {
     "title": "Social Media Marketing",
     "img": "/light/assets/imgs/serv-icons/output-onlinegiftoo.gif",
-    "desc": "Our digital marketing services are designed to enhance your online presence and expand your reach.",
+    "desc": "We expand your reach by ensuring you to connect with your target audience on the platforms they love thereby turning followers into loyal customers.",
     "link": "/light/page-services-details"
   },
   {
-    "title": "Web Developments",
+    "title": "Website Design & Development",
     "img": "/light/assets/imgs/serv-icons/output-onlinegif.gif",
-    "desc": "Our website design services focus on crafting visually appealing and intuitive websites that enhance user experience.",
+    "desc": "We create visually appealing and responsive websites to enhance user experience.",
     "link": "/light/page-services-details"
   },
   {
     "title": "Content Marketing",
     "img": "/light/assets/imgs/serv-icons/output-onlinegiftools.gif",
-    "desc": "Content marketing involves creating and consistent content to attract and engage a clearly defined audience.",
+    "desc": "We provide you with high quality engaging content that reflects your brand story and attracts the target audience",
     "link": "/light/page-services-details"
   },
   {
     "title": "Email Marketing",
     "img": "/light/assets/imgs/serv-icons/output-onlinegiftoolsss.gif",
-    "desc": "Email marketing is the practice of sending targeted emails to a group of subscribers to promote products, services, or content.",
+    "desc": "We support your business needs by driving conversions with personalized email campaigns to keep your audience engaged and promote your products, content or services.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Search Engine Optimisation",
+    "img": "/light/assets/imgs/serv-icons/search (2).gif ",
+    "desc": "Climb to the top of search engine rankings and stay there with our advanced SEO strategies.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Pay-Per-Click Advertising",
+    "img": "/light/assets/imgs/serv-icons/pay.gif",
+    "desc": "Maximize your ROI with data-driven pay-per-click campaigns that target your ideal customers",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Influencer Marketing",
+    "img": "/light/assets/imgs/serv-icons/infru.gif",
+    "desc": "Leverage the power of influencers to boost your brand's reach and credibility.",
     "link": "/light/page-services-details"
   }
 ]

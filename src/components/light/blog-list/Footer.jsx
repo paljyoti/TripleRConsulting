@@ -59,7 +59,7 @@ function Footer() {
                       href="#0"
                       className="butn butn-md butn-bord-thin radius-30"
                     >
-                      <span className="text">jyot2999@gmail.com</span>
+                      <span className="text">rishabhbahree@gamil.com</span>
                     </a>
                   </div>
                   <div>
@@ -67,7 +67,7 @@ function Footer() {
                       href="#0"
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
-                      <span className="text">+91 7827293362</span>
+                      <span className="text">+91 9911082917</span>
                     </a>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ function Footer() {
           </div>
           <div className="text-center pt-30 pb-30 main-bg mt-80">
             <p className="fz-14">
-              Exeligo innovations pvt ltd
+            Copyright: © 2024 Triple R Consulting All Rights Reserved.
               {/* <span className="underline main-color">
                 <a href="https://themeforest.net/user/UiCamp" target="_blank">
                   UiCamp

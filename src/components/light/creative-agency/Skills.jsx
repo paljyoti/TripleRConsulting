@@ -47,20 +47,35 @@ function Skills() {
             <div className="col-lg-6 valign">
               <div className="content full-width">
                 <div className="sec-head mb-30">
-                  <h6 className="sub-title mb-15 main-color" style={{ fontSize: "50px"}}>Why Choose Us</h6>
-                  <h3 className="text-u">
-                    The ultmiate Platfrom for Digital success.
-                  </h3>
+                  <h6
+                    className="sub-title mb-15"
+                    style={{ fontSize: "40px", color: "#7fff00" }}
+                  >
+                    Why Choose Us
+                  </h6>
+                  <h4 className="">
+                    The ultmiate Platfrom for DIGITAL SUCCESS.
+                  </h4>
                 </div>
                 <div className="row justify-content-end">
                   <div className="col-lg-11">
-                    <div className="text">
-                      <p>
-                        We shifted our talents to frontier to ensure our work
-                        has a tangible, positive impact on humanity.
-                        Additionally, it gives us a front-row seat to the
-                        future.
-                      </p>
+                    <div className="text" style={{ textAlign: "justify"}}>
+                      <ul>
+                        <li>
+                          <h6>Expert Team:</h6><p> Our seasoned professionals bring
+                          years of experience and industry insights and simplify
+                          the entire process.</p>
+                        </li>
+                        <li>
+                          <h6>Customized Strategies:</h6><p>  We tailor our services
+                          to adapt the development as per the needs of your
+                          business.</p>
+                        </li>
+                        <li>
+                          <h6>Proven Results:</h6><p>  We deliver measurable
+                          outcomes that help you achieve your goals.</p>
+                        </li>
+                      </ul>
                     </div>
                     {/* <div className="mt-50">
                     <div className="skills-box">

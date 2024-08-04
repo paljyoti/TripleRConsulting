@@ -425,7 +425,7 @@ function Navbar({ onBookCallClick }) {
                 className="butn butn-full butn-bord radius-30"
                 onClick={onBookCallClick}
               >
-                <span className="text">Book a call.</span>
+                <span className="text">Book a Call</span>
               </button>
             </div>
           </div>
@@ -991,7 +991,7 @@ function Navbar({ onBookCallClick }) {
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
                     Saraswati Vihar <br />
-                    Gurgaon, Haryana Haryana
+                    Gurgaon, Haryana
                   </h5>
                 </div>
                 {/* <div className="item mb-50">

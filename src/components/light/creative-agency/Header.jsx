@@ -2,7 +2,10 @@
 import React, { useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import "./externalCSS/Navbar.css";
+import { useNavigate } from "react-router-dom";
 function Header() {
+
+  const navigate = useNavigate();
   useLayoutEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
@@ -40,23 +43,38 @@ function Header() {
               <div>
                 <div className="caption main-bg">
                   <h4 className="text-center">Welcome To</h4>
-                  <h2 className="text-center">
+                  <h4 className="text-center" style={{ fontWeight: "900" }}>
                     TRIPLE <span className="project-title"> R </span> CONSULTING
-                  </h2>
-                  <h4 className=" text-center">We create, manage & grow </h4>
-                  <h4 className="text-center">Your online presence</h4>
+                  </h4>
+                  <h4 className=" text-center">We Create, Manage & Grow </h4>
+                  <h4 className="text-center">Your Online Presence</h4>
                   {/* <h1 className="text-xl">CONSULTING </h1> */}
                 </div>
                 <div className="row justify-content-center mt-30">
-                  <div className="col-md-9">
-                    <p>
-                      TRIPLE R CONSULTING offers digital marketing, web design,
-                      and social media services to help businesses grow online.
-                      Our team of experts is dedicated to helping you achieve
-                      your digital goals. From website design and development to
-                      SEO, PPC advertising, and social media marketing.
+                  <div className="col-md-11">
+                    <p className="" style={{ textAlign: "justify"}}>
+                      We Transform your business with our all-in-one digital
+                      marketing, web development and social media services. Our
+                      team of experts is here to help you harness the power of
+                      online marketing to grow your business. From SEO to
+                      influencer marketing, we provide tailored strategies that
+                      deliver results.
                     </p>
                   </div>
+                  <button
+                    className="h-16 w-16"
+                    
+                    style={{
+                      height: "50px",
+                      width: "200px",
+                      borderRadius: "40px",
+                      marginTop: "30px",
+  
+                    }}
+                    onClick={()=>{navigate("/light/page-about")}}
+                    >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>

@@ -26,7 +26,7 @@ function Footer() {
           <h2 className="fz-120 line-height-1 d-rotate wow">
             <span className="rotate-text">
               <a href="/light/page-contact3">
-                Let’s Contact{" "}
+                Let’s Connect
                 <span className="ml-30 fz-70 ti-arrow-top-right"></span>
               </a>
             </span>
@@ -43,12 +43,15 @@ function Footer() {
               <div className="mb-40">
                 <h6 className="sub-title mb-30">Address</h6>
                 <h5 className="opacity-8">
-                  5919 Trussville <br /> Crossings Pkwy, Birmingham
+                Saraswati Vihar <br /> Gurgaon , Haryana ,India
                 </h5>
+                <h5 className='mt-4'>Email
+                </h5>
+                <h5>rishabhbahree@gamil.com</h5>
               </div>
 
               <a href="#0" className="underline">
-                <span className="fz-22 main-color">+91 7827293362</span>
+                <span className="fz-22 main-color">+91 9911082917</span>
               </a>
             </div>
           </div>
@@ -118,7 +121,7 @@ function Footer() {
           </div>
           <div className="ml-auto">
             <p className="fz-14">
-              copy exeligo innovations pvt ltd
+            Copyright: © 2024 Triple R Consulting All Rights Reserved.
               {/* <span className="underline main-color">
                 <a href="https://themeforest.net/user/UiCamp" target="_blank">
                   UiCamp

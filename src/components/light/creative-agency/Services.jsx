@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import data from "../../../l-data/services.json";
+import './externalCSS/service.css'
 
 function Services() {
   const settings = {
@@ -36,8 +37,8 @@ function Services() {
       <div className="container">
         <div className="sec-head mb-80">
           <h6
-            className="sub-title main-color mb-25"
-            style={{ fontSize: "50px" }}
+            className="sub-title  mb-25"
+            style={{ fontSize: "30px",color:"#7fff00"}}
           >
             Our Services
           </h6>
@@ -53,7 +54,7 @@ function Services() {
               </div> */}
           </div>
         </div>
-        <div className="row pt-30">
+        <div className="row" style={{ textAlign: "justify"}}>
           <Slider {...settings}>
             {data.map((item, i) => (
               <div
@@ -64,9 +65,9 @@ function Services() {
                 <div className="icon mb-40 opacity-5">
                   <img src={item.img} alt="" />
                 </div>
-                <h5 className="mb-15 text-u">
+                <h4 className="mb-15 text-u" >
                   {item.title.split(" ")[0]} <br /> {item.title.split(" ")[1]}
-                </h5>
+                </h4>
                 <p>{item.desc}</p>
               </div>
             ))}

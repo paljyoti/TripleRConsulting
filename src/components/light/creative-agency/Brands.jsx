@@ -8,7 +8,7 @@ function Brands() {
           <div className="col-lg-6 mt-100 order-md-2">
             <div className="row">
               <div className="col-6 item ontop">
-                <p>We are a pioneering digital work system designed to revolutionize how businesses operate in the digital age.</p>
+                <p className=""style={{ textAlign: "justify"}}>We are a pioneering digital work system designed to revolutionize how businesses operate in the digital age.</p>
                 {/* <div className="img">
                   <img src="/light/assets/imgs/brands/01.png" alt="" />
                 </div> */}
@@ -102,7 +102,7 @@ function Brands() {
                 </span> */}
               </div>
               <div className="col-6 item">
-                <p className="w-full">
+                <p className="w-full" style={{ textAlign: "justify"}}>
                 Our mission is to provide cutting-edge solutions that streamline workflows, enhance productivity, and drive growth. 
               </p>
                 <div className="img">
@@ -136,7 +136,7 @@ function Brands() {
           <div className="col-lg-5 offset-lg-1 md-hide">
             <div className="sec-head nocurve">
               <div className="ontop" >
-                <h6 className="sub-title main-color mb-15 " style={{ fontSize: "25px"}}>Who are we</h6>
+                <h6 className="sub-title  mb-15 " style={{ fontSize: "25px" ,color:"#7fff00"}}>Who are we</h6>
                 <h3 className="fw-600 text-u ls1">
                   a new digital work system for you.
                   <span className="fw-200 "></span>

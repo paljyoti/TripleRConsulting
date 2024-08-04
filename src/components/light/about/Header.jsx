@@ -23,12 +23,12 @@ function Header() {
     >
       <div className="container pt-100 pb-100">
         <div className="text-center">
-          <h1 className="fz-100 text-u">About Us.</h1>
-          <div className="mt-15">
+          <h1 className="fz-100 text-u">About Us</h1>
+          {/* <div className="mt-15">
             <a href="/light/home-main">Home</a>
             <span className="padding-rl-20">|</span>
             <span className="main-color">About Us</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
